@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Sansita+Swashed&display=swap');
+/* font-family: 'Permanent Marker', cursive; */
+/* font-family: 'Sansita Swashed', cursive; */
+
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+     background-color: #373a40;
+     background-image: url("./images/Cyd3OX.jpg");
+     text-align: center;
+}
+
+.container h1{
+    font-size:7rem;
+    color:whitesmoke;
+    font-family: 'Permanent Marker', cursive;
+    text-shadow: 3px 0 #DA0463;
+}
+
+.drum-set{
+    margin-top: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.btn{
+    display: flex;
+    margin:10px;
+    width: 10%;
+    height:100px;
+    border: 10px solid #404B69;
+    border-radius: 15px;
+    line-height: 2;
+    font-weight: 900;
+    color: #DA0463;
+    text-align: center;
+    text-shadow: 3px 0 #DBEDF3;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 40px;
+    padding: 10px;
+}
+
+.pressed {
+  box-shadow: 0 3px 4px 0 #DBEDF3;
+  opacity: 0.5;
+}
+
+.w{
+    background-image: url("./images/tom1.png");
+}
+
+.a{
+    background-image: url("./images/tom2.png");
+}
+
+.s{
+    background-image: url("./images/tom3.png");
+}
+
+.d{
+    background-image: url("./images/tom4.png");
+}
+
+.j{
+    background-image: url("./images/snare.png");
+}
+
+.k{
+    background-image: url("./images/crash.png");
+}
+
+.l{
+    background-image: url("./images/kick.png");
+}
+
+footer{
+    margin-top: 150px;
+    color: whitesmoke;
+    text-shadow: 3px 0 #DA0463;
+    font-family: 'Sansita Swashed', cursive;
+    font-size: 2rem;
+}
+
+@media (max-width:520px){
+    .container h1{
+        font-size:3rem;
+        margin-top: 20px;
+    }
+
+    .btn{
+        width: 25%;
+    }
+
+    .drum-set{
+        margin-top: 20px;
+    }
+
+    footer{
+        font-size: 1rem;
+        margin-top: 25px;
+    }
+}
